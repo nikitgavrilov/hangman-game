@@ -1,0 +1,85 @@
+.head {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+
+  position: absolute;
+  top: 49px;
+  right: -20px;
+}
+.body {
+  width: 10px;
+  height: 170px;
+
+  position: absolute;
+  top: 98px;
+  right: 0;
+}
+.leftArm {
+  width: 100px;
+  height: 10px;
+
+  position: absolute;
+  top: 130px;
+  right: 0;
+  transform: rotate(30deg);
+}
+.rightArm {
+  width: 100px;
+  height: 10px;
+
+  position: absolute;
+  top: 130px;
+  right: -90px;
+  transform: rotate(-30deg);
+}
+.leftLeg {
+  width: 100px;
+  height: 10px;
+
+  position: absolute;
+  top: 305px;
+  right: -20px;
+  transform: rotate(-60deg);
+}
+.rightLeg {
+  width: 100px;
+  height: 10px;
+
+  position: absolute;
+  top: 305px;
+  right: -70px;
+  transform: rotate(60deg);
+}
+
+.drawing {
+  position: relative;
+
+  > *:not(.head) {
+    background-color: #ffffff;
+  }
+
+  .hangingLine {
+    width: 10px;
+    height: 50px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .topLine {
+    width: 170px;
+    height: 10px;
+    margin: 0 0 0 120px;
+  }
+  .middleLine {
+    width: 10px;
+    height: 400px;
+    margin: 0 0 0 120px;
+  }
+  .bottomLine {
+    width: 250px;
+    height: 10px;
+  }
+}

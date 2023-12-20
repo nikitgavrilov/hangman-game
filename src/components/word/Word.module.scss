@@ -1,0 +1,10 @@
+.word {
+  display: flex;
+  gap: 1rem;
+
+  .letter {
+    font-size: 4rem;
+    border-bottom: .6rem solid #fff;
+    text-transform: uppercase;
+  }
+}
